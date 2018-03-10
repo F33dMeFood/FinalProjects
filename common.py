@@ -18,11 +18,11 @@ def countingletters(filename, mychar):
     print(count)
     
 
-CountingLetters(filename="constitution.txt", mychar="a")
-CountingLetters(filename="constitution.txt", mychar="b")
+countingletters(filename="constitution.txt", mychar="a")
+countingletters(filename="constitution.txt", mychar="b")
 letters = list['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 for letter in letters:
-    currentcount = CountingLetters("constitution.txt", letter)
+    currentcount = countingletters("constitution.txt", letter)
     countlist.append(currentcount)
 print(countlist)
 dracula = max(countlist)
